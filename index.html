@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Ziad Masoud | STEM Engineer Portfolio</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar"></div>
+
+<!-- Navbar -->
+<nav>
+    <h2 class="logo">Ziad.</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section with Profile Photo -->
+<section id="home" class="hero">
+    <div class="hero-content">
+        <!-- PROFILE PHOTO: naming = profile-photo.jpg -->
+        <img src="profile-photo.png" alt="Ziad Masoud Khalaf" class="profile-photo" onerror="this.src='https://placehold.co/400x400/1e293b/3b82f6?text=Ziad'">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Ziad Masoud Khalaf</span></h1>
+            <p>
+                A STEM student passionate about engineering,
+                web development, scientific research,
+                and building innovative projects.
+            </p>
+            <button id="aboutBtn">Learn More</button>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section id="about" class="section hidden">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am Ziad Masoud Khalaf from Egypt,
+            living in ElKhanka city, AlQalyubia governorate.
+            I study in STEM school as a Grade 11 student.
+        </p>
+        <p style="margin-top: 16px;">
+            I enjoy playing football and padel,
+            and I am also a huge fan of
+            EL Zamalek club.
+        </p>
+        <p style="margin-top: 16px;">
+            My dream is to become an engineer
+            and create projects that can help people
+            using technology and research.
+        </p>
+    </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section hidden">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card"><h3>HTML5 & CSS3</h3><i class="fas fa-code" style="color:#3b82f6; margin-top: 8px;"></i></div>
+        <div class="skill-card"><h3>JavaScript</h3><i class="fab fa-js" style="color:#facc15;"></i></div>
+        <div class="skill-card"><h3>Scientific Research</h3><i class="fas fa-flask"></i></div>
+        <div class="skill-card"><h3>Problem Solving</h3><i class="fas fa-brain"></i></div>
+        <div class="skill-card"><h3>Teamwork & Leadership</h3><i class="fas fa-users"></i></div>
+        <div class="skill-card"><h3>Prototyping</h3><i class="fas fa-drafting-compass"></i></div>
+    </div>
+</section>
+
+<!-- Projects & Achievements (FOUR projects with images) -->
+<section id="projects" class="section hidden">
+    <h2>Projects & Achievements</h2>
+    <div class="projects-container">
+        
+        <!-- Project 1: Self-Healing Research Project -->
+        <div class="project-card">
+            <img class="project-img" src="project1-greenhouse.png" alt="Self-Healing Material Research" onerror="this.src='https://placehold.co/400x200/0f172a/3b82f6?text=Self-Healing+Project'">
+            <h3>Self-Healing Research</h3>
+            <p>Innovative material science project exploring autonomous repair mechanisms for sustainable infrastructure.</p>
+            <button class="details-btn" data-poster="poster1.png" data-title="Self-Healing Research Poster">📄 View Details</button>
+        </div>
+        
+        <!-- Project 2: ISEF Achievement -->
+        <div class="project-card">
+            <img class="project-img" src="project2-spectrophotometer.png" alt="ISEF Competition" onerror="this.src='https://placehold.co/400x200/0f172a/3b82f6?text=ISEF+Achievement'">
+            <h3>ISEF Local Stage</h3>
+            <p>Successfully qualified for the national ISEF stage with advanced scientific research in engineering.</p>
+            <button class="details-btn" data-poster="poster2.png" data-title="ISEF Achievement Certificate & Poster">📄 View Poster</button>
+        </div>
+        
+        <!-- Project 3: STEM Prototypes & Portfolios -->
+        <div class="project-card">
+            <img class="project-img" src="project3-prototypes.png" alt="STEM Prototypes" onerror="this.src='https://placehold.co/400x200/0f172a/3b82f6?text=Prototypes+%26+Posters'">
+            <h3>Prototypes & Posters</h3>
+            <p>Created 4+ portfolios, engineering prototypes, and scientific posters for STEM exhibitions.</p>
+            <button class="details-btn" data-poster="poster3.png" data-title="Prototypes & Scientific Posters Gallery">🎨 View Poster</button>
+        </div>
+        
+        <!-- Project 4: Web Innovation Platform -->
+        <div class="project-card">
+            <img class="project-img" src="project4-webplatform.png" alt="Web Innovation Hub" onerror="this.src='https://placehold.co/400x200/0f172a/3b82f6?text=Web+Innovation+Hub'">
+            <h3>Web Innovation Hub</h3>
+            <p>Interactive dashboard showcasing STEM research and engineering prototypes with modern UI/UX.</p>
+            <button class="details-btn" data-poster="poster4.png" data-title="Web Innovation Hub - Interface Poster">🌐 View Details</button>
+        </div>
+    </div>
+</section>
+
+<!-- Future Goal Section -->
+<section class="section hidden">
+    <h2>Future Goal</h2>
+    <div class="goal-card">
+        <p style="font-size: 1.1rem; line-height: 1.6;">
+            My goal is to become a successful engineer
+            and continue building impactful projects
+            combining technology and science. I aim to contribute to sustainable development goals,
+            inspire young innovators in STEM, and eventually launch research that bridges AI and material engineering.
+        </p>
+    </div>
+</section>
+
+<footer>
+    <p>Made by Ziad Masoud Khalaf © 2026 | STEM Engineer in progress</p>
+</footer>
+
+<!-- JavaScript File -->
+<script src="script.js"></script>
+
+<!-- =========================================== -->
+<!-- PHOTO NAMING GUIDE                         -->
+<!-- =========================================== -->
+<!-- 
+    To make the portfolio fully functional with images, please add the following files in the same folder:
+    
+    1) PROFILE PHOTO: "profile-photo.jpg" (square, 600x600 recommended)
+    
+    2) PROJECT IMAGES (4 items):
+        - project1-selfhealing.jpg
+        - project2-isef.jpg
+        - project3-prototypes.jpg
+        - project4-webplatform.jpg
+        
+    3) POSTER IMAGES (for "View Details" buttons):
+        - poster1.jpg
+        - poster2.jpg
+        - poster3.jpg
+        - poster4.jpg
+-->
+</body>
+</html>
