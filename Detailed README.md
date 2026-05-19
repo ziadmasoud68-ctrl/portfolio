@@ -1,0 +1,13 @@
+• Overview:
+> This is my personal portfolio website created to showcase my skills, achievements, hobbies, and interests in web development and technology.
+• languages used:
+> HTML5
+> CSS3
+> JavaScript
+• Features
+> Responsive design
+> Smooth scrolling
+> Skills & achievements section
+> Interactive effects
+• Purpose
+> The goal of this project is to improve my frontend development skills, practice responsive web design, and create a professional online portfolio.
